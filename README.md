@@ -1,6 +1,8 @@
 waitkey
 =======
 
+[![NPM][1]](https://nodei.co/npm/waitkey/)
+
 Utility function to wait specified keypress from stdin
 
 Installation
@@ -25,3 +27,4 @@ waitkey('space', function() {
 });
 ```
 
+[1]: https://nodei.co/npm/waitkey.png?downloads=true&stars=true
