@@ -1,0 +1,33 @@
+{
+  "name": "waitkey",
+  "version": "0.0.1",
+  "description": "Utility function to wait specified keypress from stdin.",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sergeyt/waitkey.git"
+  },
+  "keywords": [
+    "stdin",
+    "wait"
+  ],
+  "author": "Sergey Todyshev <stodyshev@gmail.com>",
+  "contributors": [
+    "Sergey Todyshev <stodyshev@gmail.com>"
+  ],
+  "dependencies": {
+    "keypress": "~0.2.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-npm": "~0.0.2",
+    "grunt-bump": "~0.0.7",
+    "grunt-auto-release": "~0.0.2",
+    "grunt-cli": "~0.1.11"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/grunt test"
+  }
+}
