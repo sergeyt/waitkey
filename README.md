@@ -20,7 +20,7 @@ Example
 -------
 
 ``` js
-var waitkey = require('./index');
+var waitkey = require('waitkey');
 
 waitkey('space', function() {
 	// your callback bits
