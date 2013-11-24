@@ -1,7 +1,7 @@
 var keypress = require('keypress'),
     tty = require('tty');
 
-module.exports = function(keyname, callback){
+module.exports = function(keys, callback){
     var stdin = process.stdin;
 
     function setRawMode(enabled){
@@ -23,7 +23,7 @@ module.exports = function(keyname, callback){
     };
 
     subscr = function(ch, key){
-        if (key && key.name == keyname){
+        if (key && (Array.isArray(keys) ? keys.indexOf(key.name) >= 0 : key.name === keys)){
             unsubscr();
             callback();
         }
