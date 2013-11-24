@@ -1,6 +1,6 @@
 {
   "name": "waitkey",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Utility function to wait specified keypress from stdin.",
   "license": "MIT",
   "main": "index.js",
